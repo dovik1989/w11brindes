@@ -73,3 +73,4 @@ fs.watch(projectDir, { recursive: true }, (eventType, filename) => {
 });
 
 console.log('[Auto-Sync] Serviço de commit automático em execução.');
+

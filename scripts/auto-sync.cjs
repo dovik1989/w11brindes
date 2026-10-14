@@ -41,7 +41,7 @@ function syncNow() {
     console.log(`[Auto-Sync] Commit criado com sucesso: "${commitMsg}"`);
 
     // 4. Push to remote
-    console.log('[Auto-Sync] Enviando alterações para https://github.com/dovik1989/W11brinders.git ...');
+    console.log('[Auto-Sync] Enviando alterações para https://github.com/dovik1989/w11brindes.git ...');
     try {
       execSync(`"${gitExe}" push origin main`, { cwd: projectDir, stdio: 'inherit' });
       console.log('[Auto-Sync] Push concluído com sucesso!');

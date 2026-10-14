@@ -18,7 +18,7 @@ if %ERRORLEVEL% equ 0 (
     echo [OK] Commit gerado com sucesso.
 )
 
-echo [INFO] Enviando para https://github.com/dovik1989/W11brinders.git ...
+echo [INFO] Enviando para https://github.com/dovik1989/w11brindes.git ...
 "%GIT%" push origin main
 if %ERRORLEVEL% equ 0 (
     echo [OK] Repositorio sincronizado com sucesso!
